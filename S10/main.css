@@ -5,8 +5,8 @@
 hr { 
     margin-top:15px;
     border-width: 1px;
-    opacity: 50%
-;}
+    opacity: 50%;
+}
 
 header{
     padding-top:20px;
@@ -20,6 +20,17 @@ h1{
     font-size: 20pt;
 }
 
+.gifjpgpng{
+    width:625px;
+}
+
+.svg{
+    margin-left:162px;
+    margin-right:162px;
+    width:300px;
+    height:350px;
+}
+
 body{
     background: linear-gradient(180deg, rgba(54,62,100) 0%, rgba(66,119,116) 100%);
     font-family: monospace;
@@ -31,11 +42,12 @@ section{
 }
 
 img{
-    width: 33%;
-    height: auto;
     filter: blur(2px) grayscale(75%);
 }
 
 a:hover img{
     filter: blur(0px);
+}
+a:link{
+    text-decoration: none;
 }
