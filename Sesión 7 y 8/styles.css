@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.elpais-logo {
+    padding: 11px;
+    height: auto;
+    padding-left: 25px;
+    width: 200px;
+    float: left;
+}
+
+.texto-top-center {
+    background-color: blue;
+}
+
+.empresas {
+    color: #32ba9b;
+    background-color: yellow;
+
+}
+
+.portada {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90pt;
+    font-weight: 100;
+    margin: 2.5% 30%;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 24pt;
+    margin: 2.5% 33%;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+}
+
+.redes {
+    padding: 2% 47%;
+}
+
+.right-rs {
+    float: right;
+}
+
+.img-redes {
+    width: 34px;
+}
+
+.autor-box {
+    margin: 2.5% 33%;
+    width: 100%;
+    text-align: center;
+    background: green;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial;
+    color: #adadad;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.icon-autor {
+    width: 17px;
+    display: inline;
+}
+
+ins {
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Roboto;
+    color: #adadad;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* END Autor y fecha */
+article {
+    font-family: Arial;
+    font-size: 22pt;
+    margin: 0% 33%;
+    line-height: 50px;
+}
+
+.p1::first-letter {
+    margin: 50px 12px 70px 0;
+    font-weight: 900;
+    font-size: 220px;
+    font-family: Arial;
+    float: left;
+}
+
+.text {
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.cursive {
+    font-style: oblique;
+}
+
+.names {
+    color: #454545;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 26pt;
+    margin: 2.5% 33% 1% 33%;
+    font-weight: bolder;
+}
+
+ul#article-list li {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 22pt;
+    margin: 0% 33% 2% 33%;
+    line-height: 50px;
+}
+
+.articleimg {
+    width: 50%;
+    margin: 2% 25%;
+}
+
+.banner {
+    margin: 5% 25%;
+    width: 50%;
+}
+
+.trust {
+    margin: 0% 30%;
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    color: #246384;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.caja-sugerencias {
+    margin: 0% 30% 15% 30%;
+}
+
+ul#sugerencias li {
+
+    font-family: Arial;
+    display: inline;
+    color: #adadad;
+    font-size: 12pt;
+    line-height: 20pt;
+}
